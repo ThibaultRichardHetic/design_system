@@ -1,0 +1,40 @@
+{
+  "repository": "@hetic/G01-E06",
+  "personalAccessToken": "7e2e80d589a8330a15f6f59752fc75a86233af4f3f94ac316c80525e6f076e78",
+  "rules": [
+      {
+          "path": "src/assets/styles/01-utils/variables/colors/_light-theme.scss",
+          "filter": {
+              "types": [
+                  "color"
+              ]
+          },
+          "parsers": [
+              {
+                  "name": "kebabcasify",
+                  "options": {
+                      "keys": [
+                          "name"
+                      ]
+                  }
+              },
+              {
+                  "name": "sort-by",
+                  "options": {
+                      "keys": [
+                          "name"
+                      ]
+                  }
+              },
+              {
+                  "name": "to-css-custom-properties",
+                  "options": {
+                      "formatConfig": {
+                          "selector": ":root[data-theme='light']"
+                      }
+                  }
+              }
+          ]
+      }
+  ]
+}

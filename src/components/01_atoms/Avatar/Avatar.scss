@@ -1,0 +1,14 @@
+.avatar {
+  width: 56px;
+  height: 56px;
+  background-color: lightblue;
+  border-radius: 100%;
+  position: relative;
+
+  .avatar--name {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
