@@ -18,7 +18,7 @@ export default {
     },
     placeholder: {
       type: String,
-      default: 'testplaceholder'
+      default: 'Fill the blank'
     },
   }
 }
@@ -26,5 +26,5 @@ export default {
 
 
 <style lang="scss">
-@import "./Input.scss";
+@import "./CpInput.scss";
 </style>

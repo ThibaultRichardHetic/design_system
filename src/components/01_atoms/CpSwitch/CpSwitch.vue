@@ -1,7 +1,7 @@
 <template>
   <div>
-    <input type="checkbox" v-model="checked">
-    <label>{{ checked }}</label>
+    <input type="checkbox" id="switch" />
+    <label for="switch">Toggle</label>
   </div>
 </template>
 
@@ -19,6 +19,6 @@ export default {
 </script>
 
 <style lang="scss">
-@import "CpSwitch.scss";
+@import "./CpSwitch.scss";
 </style>
 
