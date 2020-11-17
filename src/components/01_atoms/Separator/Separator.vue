@@ -6,8 +6,12 @@
 </template>
 
 
+
 <script>
 // changer le nom de la class
+// user badge
+// un element de la side bar est une molécule 
+// organisme
 export default {
   name: 'Separator',
   props: {

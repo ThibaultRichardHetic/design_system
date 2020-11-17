@@ -1,12 +1,14 @@
 <template>
-  <router-link to="lala">
-    test de link
-  </router-link>
+  <component
+  :is="tag" :class="`a-text--${type}`"
+  >
+  <slot />
+  </component>
 </template>
 
 <script>
 export default {
-  name: 'Link',
+  name: 'CpText',
   props: {
     tag: {
       type: String,
@@ -22,5 +24,5 @@ export default {
 
 
 <style lang="scss">
-@import "./Link.scss";
+@import "./CpText.scss";
 </style>
