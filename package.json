@@ -28,8 +28,10 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "sync": "specify sync -C .specifyrc.js",
-    "extract": "specify extract -C .specifyrc.js"
+    "sync": "specify sync -C .specifyrc.json",
+    "sync-dark": "specify sync -C .specifyrc_dark.json",
+    "extract": "specify extract -C .specifyrc.json",
+    "extract-dark": "specify extract -C .specifyrc_dark.json"
   },
   "keywords": [],
   "author": "Thibault Richard",
