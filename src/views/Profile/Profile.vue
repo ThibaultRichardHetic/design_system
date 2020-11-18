@@ -1,8 +1,8 @@
 <template>
-  <main>
+  <main class="main--profile">
     <CpText tag="h1" type="title">{{ h1 }}</CpText>
-    <CpForm />
-    <CpArticle />
+    <CpForm/>
+    <CpArticle/>
     <ButtonText type="destructive" :content="textButton"/>
   </main>
 </template>
@@ -31,5 +31,5 @@ export default {
 </script>
 
 <style lang="scss">
-  @import "./Profile.scss";
+@import "./Profile.scss";
 </style>

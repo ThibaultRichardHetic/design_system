@@ -1,6 +1,6 @@
 <template>
   <div>
-    <form action="get">
+    <form action="get" class="form">
       <InputTitle v-for="input in inputs" :key="input.id" :input="input"/>
     </form>
     <ButtonText type="primary" :content="textButton"/>

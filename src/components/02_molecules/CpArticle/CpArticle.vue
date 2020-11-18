@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <CpText tag="h3">{{ h3 }}</CpText>
+  <div class="article">
+    <CpText tag="h3" type="subtitle">{{ h3 }}</CpText>
     <CpText tag="p">{{ p }}</CpText>
   </div>
 </template>

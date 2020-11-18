@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="inputtitle">
     <CpText tag="h4">{{ input[0] }}</CpText>
     <CpInput :placeholder="input[1]"/>
   </div>

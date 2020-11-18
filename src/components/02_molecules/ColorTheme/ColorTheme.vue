@@ -1,6 +1,6 @@
 <template>
   <div class="colortheme">
-    <CpSwitch/>
+    <CpSwitch />
     <CpText tag="p">{{ Mode }}</CpText>
   </div>
 </template>

@@ -1,0 +1,23 @@
+.main--profile{
+  padding: 6.4rem 0 0 10rem;
+  background-color: var(--global-n-1);
+
+  .text--title {
+    margin-bottom: 24px;
+  }
+
+  .form {
+    margin-bottom: 24px;
+  }
+
+  .button--primary {
+    margin-bottom: 32px;
+  }
+
+  .article {
+    width: percent(530, 860);
+    border-top: solid 1px var(--global-n-3);
+    padding-top: 32px;
+    margin-bottom: 24px;
+  }
+}

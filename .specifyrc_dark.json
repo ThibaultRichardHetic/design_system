@@ -3,7 +3,7 @@
   "personalAccessToken": "7e2e80d589a8330a15f6f59752fc75a86233af4f3f94ac316c80525e6f076e78",
   "rules": [
       {
-          "path": "src/assets/styles/01-utils/variables/colors/_Dark-Theme.scss",
+          "path": "src/assets/styles/02-utils/variables/colors/_Dark-Theme.scss",
           "filter": {
               "types": [
                   "color"
@@ -30,7 +30,7 @@
                   "name": "to-css-custom-properties",
                   "options": {
                       "formatConfig": {
-                          "selector": "#app[data-theme='light']"
+                          "selector": "#app[data-theme='dark']"
                       }
                   }
               }
