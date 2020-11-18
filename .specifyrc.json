@@ -30,7 +30,7 @@
                   "name": "to-css-custom-properties",
                   "options": {
                       "formatConfig": {
-                          "selector": ":root[data-theme='light']"
+                          "selector": "#app[data-theme='light']"
                       }
                   }
               }

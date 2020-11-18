@@ -1,6 +1,6 @@
 <template>
   <div :class="`button--${type}`">
-    <CpText>{{ content }}</CpText>
+    <CpText tag="span" type="button">{{ content }}</CpText>
   </div>
 </template>
 

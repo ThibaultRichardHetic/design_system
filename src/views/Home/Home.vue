@@ -1,7 +1,6 @@
 <template>
   <div class="home">
     <SidebarAccount />
-    <p>séparation</p>
     <Profile />
   </div>
 </template>
@@ -25,4 +24,6 @@ export default {
 };
 </script>
 
-<style lang="scss"></style>
+<style lang="scss">
+@import "./Home.scss"
+</style>

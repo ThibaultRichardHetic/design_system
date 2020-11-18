@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="userbadge">
     <Avatar/>
     <CpText tag="p">{{ UserName }}</CpText>
   </div>

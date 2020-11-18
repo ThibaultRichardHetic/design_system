@@ -1,6 +1,6 @@
 <template>
   <main>
-    <CpText tag="h1">{{ h1 }}</CpText>
+    <CpText tag="h1" type="title">{{ h1 }}</CpText>
     <CpForm />
     <CpArticle />
     <ButtonText type="destructive" :content="textButton"/>

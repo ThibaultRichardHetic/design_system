@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <CpLink :to="elText">{{ elText }}</CpLink>
+  <div class="navelement">
+    <CpLink :to="elText" type="a">{{ elText }}</CpLink>
   </div>
 </template>
 

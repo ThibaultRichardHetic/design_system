@@ -1,6 +1,6 @@
 <template>
-  <aside>
-    <CpText tag="h2">{{ h2 }}</CpText>
+  <aside class="sidebar--account">
+    <CpText tag="h2" type="subtitle">{{ h2 }}</CpText>
     <UserBadge/>
     <NavList />
     <ColorTheme />

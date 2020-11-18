@@ -1,0 +1,32 @@
+.button--primary, .button--destructive
+{
+  width: fit-content;
+  border-radius: 3px;
+  transition: all 0.2s;
+  cursor: pointer;
+
+  .text--button
+  {
+    padding: 1.6rem 0.8rem;
+  }
+}
+
+.button--primary
+{
+  background-color: var(--global-base);
+
+  &:hover
+  {
+    background-color: var(--global-base-light);
+  }
+}
+
+.button--destructive
+{
+  background-color: var(--global-danger-base);
+
+  &:hover
+  {
+    background-color: var(--global-danger-light);
+  }
+}

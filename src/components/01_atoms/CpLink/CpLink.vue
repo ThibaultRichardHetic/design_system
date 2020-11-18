@@ -1,5 +1,5 @@
 <template>
-  <router-link to="/">
+  <router-link to="/" class="tempostyle" :class="`text__${type}`">
     <slot />
   </router-link>
 </template>
@@ -7,7 +7,12 @@
 <script>
 export default {
   name: 'CpLink',
-  props: ['to'],
+  props: {
+    type: {
+      type: String,
+      default:'a',
+    }
+  },
 }
 </script>
 

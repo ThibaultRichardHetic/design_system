@@ -1,6 +1,6 @@
 <template>
   <div :class="`avatar`">
-    <p :class="`avatar--name`">JF</p>
+    <p class="text--button">JF</p>
   </div>
 </template>
 

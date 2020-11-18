@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="navlist">
     <ul>
       <li v-for="element in elements" :key="element.id">
         <NavElement :elText="element"/>

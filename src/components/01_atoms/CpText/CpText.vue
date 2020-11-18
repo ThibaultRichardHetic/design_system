@@ -1,6 +1,6 @@
 <template>
   <component
-  :is="tag" :class="`a-text--${type}`"
+  :is="tag" :class="`text--${type}`"
   >
   <slot />
   </component>

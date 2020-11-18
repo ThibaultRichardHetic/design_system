@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="colortheme">
     <CpSwitch/>
     <CpText tag="p">{{ Mode }}</CpText>
   </div>
